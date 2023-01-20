@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sejal's Portfolio</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Sejal<span> Arora</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Certifications</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">Sejal Arora</div>
+        <div class="text-3">Im a Business Analytics Student </span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="C:\Users\sejal\OneDrive\Desktop\Personal-Portfolio-main\images\photo.jpg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm SejalArora and Im a Student at Christ university <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+              Currently persuing BBA Business Analytics and have completed my higher studies from CBSE board. In this site you will be able to see my achievememnts, goals, and certifications academical and cultural as well. I'm a punctual and hardworking person who meets the deadline on time
+          </p>
+          <a href="C:\Users\sejal\Downloads\WhatsApp Image 2023-01-20 at 9.43.45 PM (1).jpeg">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Certifications</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text">Eduedge Pro</div>
+            <p>
+              Moody's provided several courses during our degree like Python, R, excel which helped me gain practical knowledge .
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">IDigital Marketing</div>
+            <p>
+               I completed 18hours course on Digital marketing leaning SEO AAND SEM and more optimization tools and its working.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text">Culturals</div>
+            <p>
+               I'm very passionate of painting and Dance and have won several Awards and prizes inter level as well and represnted my school as well as my college in many events and fests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills and analytical tools .
+          </div>
+          <p class="paragraph-2">
+           Here I'm attaching some data visualizing tools and analyticals tools as well with which I'm familiar with and have worked on it before and few are from the online courses.It is very fruitfull for us to get intouch with these amazing tools and to know its usage as well which also helps in better analysis and better user experience. 
+          </p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="https://surveymonkey-assets.s3.amazonaws.com/papiasset/apps/logos/2e989404-aed0-41ea-9198-ddc1c76d7a4a" alt="Tableau" id="Tableau-icon" data-aos="flip-left">
+            <img src="https://img.icons8.com/color/2x/power-bi.png" alt="Power Bi-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="C:\Users\sejal\OneDrive\Desktop\Personal-Portfolio-main\images\skill-icons\Ms excel Icons – Download for Free in PNG and SVG.url " id=ms excel-icon" data-aos="flip-left">                            
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Info To Get In Touch</div>
+          <p class="paragraph-3">Here I'm attaching informations so that you can easily come in touch with me the moment you find me suitable for job role or intern role.I hope my portfolio attracts the respective company.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Sejal Arora</div>
+              </div>
+
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Hometown- Amritsar punjab </div>
+                <div class="sub-title">Currently studying- Pune,lavasa </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">sejal.arora12@icloud.com</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">Sejal Arora</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        <div>
+          <a href="https://www.linkedin.com/in/sejal-arora-95579121b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BXhAu67rKQKaydVtcJbFXVQ%3D%3D"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/sejalarora12"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/sejal.arora/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
